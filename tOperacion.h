@@ -8,10 +8,10 @@
     char fecha[11];
 }operaciones;
 
-typedef struct nodoOperaciones{
+typedef struct NodoOperaciones{
     operaciones dato;//guarda los datos de una operacion 
-    struct nodoOperaciones *sig;// apunta a la siguiente operacion realizada por ese mismo usuario 
-}nodoOperaciones;
+    struct NodoOperaciones *sig;// apunta a la siguiente operacion realizada por ese mismo usuario 
+}NodoOperaciones;
 
 #endif
 
