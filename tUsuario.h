@@ -1,19 +1,6 @@
-#ifndef TUSUARIO_H
-#define TUSUARIO_H
 
-// Estructura para representar un usuario
-typedef struct Usuario{
-    int id_usuario;
-    char nombre[50]; 
-    float saldo;
-}Usuario;
 
-// Estructura para representar un nodo de la lista de usuarios
-typedef struct NodoUsuario{
-    Usuario dato;
-    struct NodoUsuario *siguiente;
-    struct NodoOperaciones *operaciones;
-} NodoUsuario;
+
 
 // Funciones para manejar la lista de usuarios
 void registrar_usuario(NodoUsuario **lista, Usuario nuevo_usuario);
