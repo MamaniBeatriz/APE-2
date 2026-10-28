@@ -1,5 +1,6 @@
-#ifndef TUSUARIO_H
-#define TUSUARIO_H
+#include <stdio.h>
+#include <stdlib.h>
+#include "tUsuario.h"
 
 // Estructura para representar un usuario
 typedef struct Usuario{
