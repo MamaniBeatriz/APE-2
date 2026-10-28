@@ -1,5 +1,6 @@
 
-
+#ifndef TUSUARIO_H
+#define TUSUARIO_H
 
 
 // Funciones para manejar la lista de usuarios
