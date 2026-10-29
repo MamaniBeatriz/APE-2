@@ -7,12 +7,12 @@ typedef struct Usuario{
     int id_usuario;
     char nombre[50]; 
     float saldo;
+
 }Usuario;
 
-typedef struct NodoUsuario{
+typedef struct ListaUsuario{
     Usuario dato;
-    struct NodoUsuario *siguiente;
-    struct NodoOperaciones *operaciones;
-    
-} NodoUsuario;
+    struct ListaUsuario *sgte;
+    struct ListaOperaciones *operaciones;
+}ListaUsuario;
 
