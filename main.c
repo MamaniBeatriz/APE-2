@@ -6,7 +6,7 @@ void mostrar_menu_usuario(int *opcion);
 
 int main(){
     int opcion;
-    menu(&opcion);
+    mostrar_menu_usuario(&opcion);
     return 0;
 }
 
