@@ -14,7 +14,7 @@ void retirar_dinero(ListaUsuario *lista, float monto, char *fecha);
 float consultar_saldo(ListaUsuario *lista);
 
 // Funciones recursivas
-int contar_operaciones_recursivo(ListaOperaciones *operaciones);
+int contar_operaciones_recursivo(ListaUsuario *lista);
 int buscar_usuario_recursivo(ListaUsuario *lista,int id_usuario_buscado);
 
 
