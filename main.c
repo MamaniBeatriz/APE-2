@@ -2,16 +2,16 @@
 #include<stdlib.h>
 #include "tUsuario.h"
 
-void menu(int *opcion);
+void mostrar_menu_usuario(int *opcion);
 
 int main(){
     int opcion;
-    menu(&opcion);
+    mostrar_menu_usuario(&opcion);
     return 0;
 }
 
 
-    menu(int *opcion){
+    mostrar_menu_usuario(int *opcion){
     printf("1. Registrar usuario\n");
     printf("2. Buscar usuario\n");
     printf("3. Eliminar usuario\n");
