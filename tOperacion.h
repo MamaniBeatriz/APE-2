@@ -9,7 +9,7 @@
 }Operaciones;
 
 typedef struct ListaOperaciones{
-    operaciones dato;//guarda los datos de una operacion 
+    Operaciones dato;//guarda los datos de una operacion 
     struct ListaOperaciones *sgte;// apunta a la siguiente operacion realizada por ese mismo usuario 
 }ListaOperaciones;
 

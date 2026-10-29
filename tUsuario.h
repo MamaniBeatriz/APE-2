@@ -2,7 +2,7 @@
 #ifndef TUSUARIO_H
 #define TUSUARIO_H
 
- typedef struct Usuario usuario;
+ typedef struct Usuario Usuario;
  typedef struct ListaUsuario  ListaUsuario;
  typedef struct ListaOperaciones ListaOperaciones;
 // Funciones para manejar la lista de usuarios
