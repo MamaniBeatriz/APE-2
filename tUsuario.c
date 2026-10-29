@@ -12,6 +12,7 @@ typedef struct Usuario{
 
 typedef struct ListaUsuario{
     Usuario dato;
+    int cant_usuarios;
     struct ListaUsuario *sgte;
     struct ListaOperaciones *operaciones;
 }ListaUsuario;
