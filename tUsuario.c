@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "tOperacion.h"
 #include "tUsuario.h"
+#include <time.h>
 
 // Estructura para representar un usuario
 typedef struct Usuario{
