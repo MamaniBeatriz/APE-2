@@ -11,7 +11,7 @@ int main(){
 }
 
 
-    mostrar_menu_usuario(int *opcion){
+void mostrar_menu_usuario(int *opcion){
     printf("1. Registrar usuario\n");
     printf("2. Buscar usuario\n");
     printf("3. Eliminar usuario\n");
