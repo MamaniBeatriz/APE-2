@@ -2,6 +2,9 @@
 #ifndef TUSUARIO_H
 #define TUSUARIO_H
 
+ typedef struct Usuario usuario;
+ typedef struct ListaUsuario  ListaUsuario;
+ typedef struct ListaOperaciones ListaOperaciones;
 // Funciones para manejar la lista de usuarios
 void registrar_usuario(ListaUsuario **lista, Usuario nuevo_usuario);
 ListaUsuario* buscar_usuario_recursivo(ListaUsuario *lista,int id_usuario_buscado);

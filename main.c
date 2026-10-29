@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include"tUsuario.h"
+#include "tUsuario.h"
 
 void menu(int *opcion);
 
 int main(){
     int opcion;
-    menu(&opcion);
+    void menu(int *opcion);
     return 0;
 }
 

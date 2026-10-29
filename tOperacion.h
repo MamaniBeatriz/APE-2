@@ -1,12 +1,12 @@
  #ifndef TOPERACION_H
  #define TOPERACION_H
  //ESTRUCTURAS 
- typedef struct operaciones{//guarda la informacion de una operacion 
+ typedef struct Operaciones{//guarda la informacion de una operacion 
     int ID_operaciones;
     float monto;
     int tipo;
     char fecha[11];
-}operaciones;
+}Operaciones;
 
 typedef struct ListaOperaciones{
     operaciones dato;//guarda los datos de una operacion 
