@@ -6,7 +6,7 @@ void menu(int *opcion);
 
 int main(){
     int opcion;
-    void menu(int *opcion);
+    menu(&opcion);
     return 0;
 }
 
